@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>OOP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <h1>Welcome to the Weather Simulator!</h1>
+    <div id="explanation">
+        <h3>Input the highest and lowest temperatures you would like to see and the next 31 days will be simulated based on your input.</h3>
+    </div>
+    <div id="weather">
+
+        <label for="hi">Highest Temp in Fahrenheit</label>
+        <input id="hi" name="high" value="85" onkeyup="checkKey(event)" required><br>
+        <label for="lo">Lowest Temp in Fahrenheit</label>
+        <input id="lo" name="low" value="65" onkeyup="checkKey(event)" required><br>
+
+        <br>
+        <button class="button" type="button" onclick="predictWeather()">Begin Simulation</button>
+    </div>
+
+    <div id="output">
+    </div>
+    <script src="weather.js"></script>
+    <script src="keeper.js"></script>
+</body>
+</html>

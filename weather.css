@@ -1,0 +1,31 @@
+input:invalid{
+    border: 3px solid red;
+}
+
+.hot_day{
+    color: red;
+}
+
+.cold_day{
+    color: blue;
+}
+
+.nice_day{
+    color: green;
+}
+
+.results{
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkkhaki;
+}
+
+.button {
+    background-color: #ccc;
+    border: ridge;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
